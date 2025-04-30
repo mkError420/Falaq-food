@@ -1,0 +1,37 @@
+/* Basic styling for the invoice */
+.invoice {
+  width: 60%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.invoice h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.invoice-header, .customer-info {
+  margin-bottom: 20px;
+}
+
+.invoice-header div, .customer-info div {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.invoice-header div, .customer-info div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.invoice-header div p, .customer-info div p {
+  margin: 0;
+  font-style: italic;
+  color: #333;
+}
